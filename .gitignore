@@ -150,4 +150,8 @@ cython_debug/
 # Virtual Environment
 venv
 
+# static and media
+/static
+/media
+
 # End of https://www.toptal.com/developers/gitignore/api/django
