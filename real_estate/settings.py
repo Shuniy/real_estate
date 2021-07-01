@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
+from django.contrib.messages import constants as messages
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -44,6 +45,8 @@ INSTALLED_APPS = [
     'realtors.apps.RealtorsConfig', 
     'accounts.apps.AccountsConfig',
     'django.contrib.humanize',
+    'phonenumber_field',
+    'contacts.apps.ContactsConfig',
 
 
 ]
@@ -161,3 +164,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Media folder settings
 MEDIA_ROOT = BASE_DIR / 'media'
 MEDIA_URL = '/media/'
+
+# Messages
+MESSAGE_TAGS = {
+    messages.ERROR : 'danger',
+}
