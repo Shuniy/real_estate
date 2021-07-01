@@ -20,6 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
+# Use your own generated project secret key
 from secretkey import SECRET_KEY
 SECRET_KEY = SECRET_KEY
 
@@ -40,7 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'pages.apps.PagesConfig',
     'listings.apps.ListingsConfig',
-    'realtors.apps.RealtorsConfig',
+    'realtors.apps.RealtorsConfig', 
+    'accounts.apps.AccountsConfig',
     'django.contrib.humanize',
 
 

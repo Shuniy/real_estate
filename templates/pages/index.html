@@ -91,14 +91,14 @@
                     <img class="card-img-top" src="{{listing.photo_main.url}}" alt="">
                     <div class="card-img-overlay">
                         <h2>
-                            <span class="badge badge-secondary text-white">${{listing.price | intcomma}}</span>
+                            <span class="badge badge-secondary text-white"> ${{listing.price | intcomma}}</span>
                         </h2>
                     </div>
                     <div class="card-body">
                         <div class="listing-heading text-center">
                             <h4 class="text-primary">{{listing.title}}</h4>
                             <p>
-                                <i class="fas fa-map-marker text-secondary"></i>{{listing.address}}
+                                <i class="fas fa-map-marker text-secondary"></i> {{listing.address}}
                             </p>
                         </div>
                         <hr>
