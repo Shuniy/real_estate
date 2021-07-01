@@ -151,6 +151,7 @@ cython_debug/
 venv
 
 # static and media
+secretkey.py
 /static
 /media
 
