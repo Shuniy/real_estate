@@ -1,43 +1,37 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="{% static 'css/all.css' %}">
+    <link rel="stylesheet" href="{% static 'css/all.css' %}" />
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
-    <!-- Custom -->
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/bootstrapDesign.css' %}" />
     <!--Lightbox-->
-    <link rel="stylesheet" href="{% static 'css/lightbox.css' %}">
+    <link rel="stylesheet" href="{% static 'css/lightbox.css' %}" />
     <!--Icon-->
-    <link rel="icon" href="{% static 'imgs/logo2.jpg' %}">
-
+    <link rel="icon" href="{% static 'imgs/logo2.jpg' %}" />
+    <!-- Custom -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    
     <!--Title Block Content-->
     {% block title %}
     <title>Base Page Zippy Real Estate</title>
     {% endblock %}
 
     <!--Head Block Content-->
-    {% block head %}
+    {% block head %} {% endblock %}
+  </head>
 
-    {% endblock %}
-
-
-</head>
-
-<body>
+  <body>
     <!--TopBar-->
     {% include "partials/_top_bar.html" %}
 
     <!-- Navbar -->
     {% include "partials/_navbar.html" %}
-
-    
 
     <!--Body Content-->
     {% block content %}
@@ -48,16 +42,17 @@
     {% include "partials/_footer.html" %}
 
     <!--Javascript Block Content-->
-    {% block javascript %}
-    {% endblock %}
+    {% block javascript %} {% endblock %}
 
     <!--Javascript-->
-    
-    <script src="{% static 'js/lightbox.min.js' %}"></script>
-    <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+
+    <script src="{% static 'js/lightbox.js' %}"></script>
+    <!-- <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script> -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
     <script src="{% static 'js/main.js' %}"></script>
-
-</body>
-
+  </body>
 </html>
