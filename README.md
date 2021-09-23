@@ -27,7 +27,7 @@ Use following instructions in console
 
 ## ScreenShots
 ### Home Page
-![images/homescreen1.jpeg](HomeScreen1)
+![HomeScreen1](images/homescreen1.jpeg)
 
 ![images/homescreen2.jpeg](HomeScreen2)
 
