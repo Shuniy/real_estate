@@ -29,38 +29,24 @@ Use following instructions in console
 ### Home Page
 ![HomeScreen1](images/homescreen1.jpeg)
 
-![images/homescreen2.jpeg](HomeScreen2)
-
-![images/homescreen3.jpeg](HomeScreen3)
-
 ### About Page
-![images/about1.jpeg](About1)
-
-![images/about2.jpeg](about2)
-
-![images/about3.jpeg](about3)
+![About1](images/about1.jpeg)
 
 ### Admin Panel
-![images/adminpanel1.jpeg](adminpanel1)
+![adminpanel1](images/adminpanel1.jpeg)
 
-![images/adminpanel2.jpeg](adminpanel2)
+![adminpanel2](images/adminpanel2.jpeg)
 
 ### Feature Listings Page
-![images/fl1.jpeg](fl1)
-
-![images/fl2.jpeg](fl2)
-
-![images/fl3.jpeg](fl3)
+![fl1](images/fl1.jpeg)
 
 ### Listing Page
-![images/listing1.jpeg](listing1)
-
-![images/listing2.jpeg](listing2)
+![listing1](images/listing1.jpeg)
 
 ### Login and Register Page
-![images/login.jpeg](login)
+![login](images/login.jpeg)
 
-![images/register.jpeg](register)
+![register](images/register.jpeg)
 
 ### Query Page
-![images/makequery.jpeg](makequery)
+![makequery](images/makequery.jpeg)
